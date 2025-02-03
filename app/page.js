@@ -3,10 +3,9 @@ import About from "@/components/about";
 import Education from "@/components/education/education";
 import Experiences from "@/components/experiences/experiences";
 import Header from "@/components/header";
-import Volunteering from "@/components/volunteering/volunteering";
 import Projects from '@/components/projects/projects';
-import Credits from '@/components/credits';
 import {promises as fs} from 'fs';
+import Footer from '@/components/footer';
 
 export default async function Home() {
   const file = await fs.readFile(process.cwd() + '/public/translations/en.json', 'utf-8');
@@ -20,9 +19,8 @@ export default async function Home() {
           <About data={data.general}></About>
           <Experiences data={data.experiences}></Experiences>
           <Education data={data.education}></Education>
-          <Volunteering data={data.volunteering}></Volunteering>
           <Projects data={data.projects}></Projects>
-          <Credits data={data.general}></Credits>
+          <Footer data={data.general}></Footer>
         </div>
       </div>
     </main>

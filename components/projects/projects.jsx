@@ -3,22 +3,23 @@ import ProjectItem from "./project-item";
 
 const Projects = (props) => {
     return (
-        <div data-section id='projects' className='mb-16'>
-            <h2 className='mb-8 visible lg:invisible font-medium tracking-widest'>Projects</h2>
-            <div className='grid grid-cols-2 gap-2'>
-                {props.data.map(function(object, index){
-                    return <ProjectItem
+        <div data-section id="projects" className="mb-16">
+            <h2 className="mb-8 visible lg:invisible font-medium tracking-widest">Projects</h2>
+            <div className="grid grid-cols-2 gap-2">
+                {props.data.map((object) => (
+                    <ProjectItem
                         key={object.name}
                         name={object.name}
                         stars={object.stars}
                         lib={object.framework}
                         description={object.description}
-                        href={object.href}
+                        href1={object.href1}
+                        href2={object.href2}
                     />
-                })}
+                ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Projects
+export default Projects;
