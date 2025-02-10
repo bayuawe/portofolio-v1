@@ -22,7 +22,7 @@
             "endDate": "CURRENT",
             "description": "Melaksanakan tugas yang di berikan oleh client dengan rating sempurna",
             "logo": "/logos/projectscoid.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "skills": ["Ms Word", "Communication"]
         },
         {
             "title": "Graphic Designer",
@@ -70,17 +70,17 @@
         {
             "name": "Sari Pasundan",
             "framework": "Laravel",
-            "description": "Company Profile",
-            "href1": "https://github.com/bayuawe",
-            "href2": "https://github.com/bayuawe",
+            "description": "A Web-based Company Profile for CV. Sari Pasundan Berkah",
+            "repo": "https://github.com/bayuawe/company-profile-saripasundan.git",
+            "preview": "https://saripasundan.bayuawe.my.id/",
             "stars": "0"
         },
         {
             "name": "Plantation MS - CRUD Generator",
             "framework": "Codeigniter 4",
             "description": "A web-based plantation management system built with CodeIgniter 4, designed to track and manage tree inventory and production data.",
-            "href1": "https://github.com/bayuawe/siperkebunan.git",
-            "href2": "https://siperkebunan.bayuawe.my.id/home",
+            "repo": "https://github.com/bayuawe/siperkebunan.git",
+            "preview": "https://siperkebunan.bayuawe.my.id/home",
             "stars": "0"
         }
     ]

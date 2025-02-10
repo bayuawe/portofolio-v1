@@ -17,11 +17,11 @@ function ProjectItem(props) {
 
             {/* Dua tombol */}
             <div className="flex gap-2">
-                <a href={props.href1} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 transition">
-                    Preview
-                </a>
-                <a href={props.href2} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 text-white bg-green-500 rounded hover:bg-green-600 transition">
+                <a href={props.repo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 transition">
                     Repo
+                </a>
+                <a href={props.preview} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 text-white bg-green-500 rounded hover:bg-green-600 transition">
+                    Preview
                 </a>
             </div>
         </div>
