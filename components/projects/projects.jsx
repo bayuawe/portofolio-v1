@@ -13,8 +13,8 @@ const Projects = (props) => {
                         stars={object.stars}
                         lib={object.framework}
                         description={object.description}
-                        href1={object.href1}
-                        href2={object.href2}
+                        repo={object.repo}
+                        preview={object.preview}
                     />
                 ))}
             </div>
