@@ -1,10 +1,11 @@
 {
     "general": {
-        "name": "Bayu Aryandi W",
-        "headline": "Junior Frontend Developer",
+        "name": "Bayu Aryandi Wijaya",
+        "nickname": "@bayuawe",
+        "headline": "Frontend Developer",
         "about": [
             "Hey there! 👋",
-            "Saya seorang Desainer Grafis berpengalaman dengan lebih dari 5 tahun dan Junior Frontend Developer lulusan Universitas Muhammadiyah Riau. Saya memiliki keahlian dalam desain grafis menggunakan Adobe Creative Suite dan CorelDRAW, serta telah membangun fondasi yang kuat dalam teknologi informasi dan pemrograman"
+            "Saya seorang Desainer Grafis berpengalaman dengan lebih dari 5 tahun dan Frontend Developer lulusan Universitas Muhammadiyah Riau. Saya memiliki keahlian dalam desain grafis menggunakan Adobe Creative Suite dan CorelDRAW, serta telah membangun fondasi yang kuat dalam teknologi informasi dan pemrograman"
         ],
         "socials": {
             "email": "bayuaryandi21@gmail.com",
@@ -72,6 +73,14 @@
             "description": "Company Profile",
             "href1": "https://github.com/bayuawe",
             "href2": "https://github.com/bayuawe",
+            "stars": "0"
+        },
+        {
+            "name": "Plantation MS - CRUD Generator",
+            "framework": "Codeigniter 4",
+            "description": "A web-based plantation management system built with CodeIgniter 4, designed to track and manage tree inventory and production data.",
+            "href1": "https://github.com/bayuawe/siperkebunan.git",
+            "href2": "https://siperkebunan.bayuawe.my.id/home",
             "stars": "0"
         }
     ]
